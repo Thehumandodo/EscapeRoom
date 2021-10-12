@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Symbol4png" size="50.000000 37.452759" />
+    <ImageTarget name="Symbol3png" size="50.000000 37.452759" />
+    <ImageTarget name="Symbol5png" size="50.000000 37.452759" />
+    <ImageTarget name="Symbol2png" size="50.000000 37.486771" />
+    <ImageTarget name="Symbol1png" size="50.000000 37.486771" />
+  </Tracking>
+</QCARConfig>
