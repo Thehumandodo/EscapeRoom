@@ -18,7 +18,7 @@ public class BackButton : MonoBehaviour
     }
 
     void clicked(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Player1");
     }
 
     // Update is called once per frame
