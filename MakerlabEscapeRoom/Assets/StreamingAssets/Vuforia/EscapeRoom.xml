@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Doll" size="0.300000 0.214945" />
+    <ImageTarget name="dollMix" size="0.300000 0.233993" />
+    <ImageTarget name="image0" size="0.300000 0.224832" />
+    <ImageTarget name="20211016_211231-min" size="0.300000 0.145833" />
     <ImageTarget name="Symbol5png" size="0.300000 0.224717" />
     <ImageTarget name="Symbol4png" size="0.300000 0.224717" />
     <ImageTarget name="Symbol3png" size="0.300000 0.224717" />
