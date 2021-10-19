@@ -18,7 +18,7 @@ public class PlayerChoose : MonoBehaviour
     }
 
     void player1change(){
-        SceneManager.LoadScene("Ray");
+        SceneManager.LoadScene("Player1");
     }
 
     void player2change(){
