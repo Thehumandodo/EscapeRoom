@@ -22,7 +22,7 @@ public class distanceCheck : MonoBehaviour
     {
         distance1 = Vector3.Distance(top.transform.position, left.transform.position);
         distance2 = Vector3.Distance(left.transform.position, right.transform.position);
-        if(distance1 < 15 && distance2 <15){
+        if(distance1 < 0.05 && distance2 <0.05){
             message.SetActive(true);
         }
         else

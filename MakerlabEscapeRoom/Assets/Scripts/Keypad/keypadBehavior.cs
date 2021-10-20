@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class keypadBehavior : MonoBehaviour
 {
 
-    public Button num1,num2,num3,num4,num5,num6,num7,num8,num9,clrscr;
+    public Button num1,num2,num3,num4,num5,num6,num7,num8,num9,clrscr,sbmt;
     string concat;
     public Text textField;
 
@@ -28,6 +28,7 @@ public class keypadBehavior : MonoBehaviour
         Button btn8 = num8.GetComponent<Button>();
         Button btn9 = num9.GetComponent<Button>();
         Button btnClr = clrscr.GetComponent<Button>();
+        Button btnSbmt = sbmt.GetComponent<Button>();
 
         btn1.onClick.AddListener(gotobtn1);
         btn2.onClick.AddListener(gotobtn2);
@@ -39,6 +40,7 @@ public class keypadBehavior : MonoBehaviour
         btn8.onClick.AddListener(gotobtn8);
         btn9.onClick.AddListener(gotobtn9);
         btnClr.onClick.AddListener(gotobtnclr);
+        btnSbmt.onClick.AddListener(gotobtnsbmt);
     }
 
     void gotobtn1(){
@@ -80,6 +82,9 @@ public class keypadBehavior : MonoBehaviour
     void gotobtnclr(){
         concat="";
         setText("0000");
+    }
+    void gotobtnsbmt(){
+        
     }
 
 
