@@ -84,7 +84,9 @@ public class keypadBehavior : MonoBehaviour
         setText("0000");
     }
     void gotobtnsbmt(){
-        
+        if(concat=="5834"){
+            SceneManager.LoadScene("arduino");
+        }
     }
 
 
