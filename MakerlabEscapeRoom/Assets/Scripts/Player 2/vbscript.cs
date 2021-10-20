@@ -44,6 +44,7 @@ public class vbscript : MonoBehaviour
         Green.RegisterOnButtonReleased(onButtonReleased);
         Red.RegisterOnButtonPressed(onButtonPressedRed);
         Yellow.RegisterOnButtonPressed(onButtonPressedYellow);
+        MyShowToastMethod("PLEASE grab the backpack image");
     }
 
     public void onButtonPressedGreen(VirtualButtonBehaviour green){
