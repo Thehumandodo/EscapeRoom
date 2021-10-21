@@ -87,6 +87,14 @@ public class keypadBehavior : MonoBehaviour
         if(concat=="5834"){
             SceneManager.LoadScene("arduino");
         }
+        
+        if(concat=="1520"){
+            SceneManager.LoadScene("Office");
+        }
+        
+        if(concat=="2304"){
+            SceneManager.LoadScene("Win");
+        }
     }
 
 
